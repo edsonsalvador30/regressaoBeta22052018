@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="oracle.jdbc.OracleDriver" logAbandoned="true" name="jdbc/main" password="cronappdev" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:oracle:thin:@oracle.integ.techne.com.br:1521:cronappdev" username="cronappdev"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/RegressaoBeta1" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:h2:file:~/RegressaoBeta;AUTO_SERVER=TRUE;DATABASE_TO_UPPER=FALSE;ALIAS_COLUMN_NAME=TRUE" username="root"/>
+    <Profile value="DEV"/>
+</Context>
